@@ -17,40 +17,32 @@
 
   <p align="center">
     Send alerts to Microsoft Teams!
-    <br />
+    
   </p>
+  
+![product-screenshot]
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]]
-
-xxxxxxx
+I made this small script because the integration of MS Teams is still waiting > https://github.com/influxdata/kapacitor/pull/1965
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-
 * Curl (https://curl.haxx.se/)
 * JQ (https://stedolan.github.io/jq/)
 
@@ -76,15 +68,9 @@ webhook="https://outlook.office.com/webhook/XXXXXXXXXXXXXXXX/IncomingWebhook/XXX
 ```
 7. Go !
 
-<!-- LICENSE -->
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 <!-- CONTACT -->
 ## Contact
 UpperM - [@uppperm](https://twitter.com/uppperm)
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -94,4 +80,4 @@ UpperM - [@uppperm](https://twitter.com/uppperm)
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/matthieuc/
-[product-screenshot]: https://puu.sh/DuZnX/d762a46bbc.png
+[product-screenshot]: https://github.com/UpperM/kapacitor-msteams/blob/master/example.png

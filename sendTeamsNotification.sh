@@ -5,9 +5,9 @@ webhook="YOUR MS TEAMS WEBHOOK"
 kapacitorInfos="$(< /dev/stdin)"
 
 # Extract fields
-details=$(echo $kapacitorInfos | jq .details | sed 's/\"//g')
-title=$(echo $kapacitorInfos | jq .message | sed 's/\"//g')
-level=$(echo $kapacitorInfos | jq .level | sed 's/\"//g')
+details=$(echo $kapacitorInfos | jq .details -r)
+title=$(echo $kapacitorInfos | jq .message -r)
+level=$(echo $kapacitorInfos | jq .level -r)
 
 # Get the correct color for MS Teams
 case "$level" in
